@@ -2,7 +2,7 @@
 See LICENSE folder for this sample’s licensing information.
 
 Abstract:
-Header for our our cross-platform view controller
+The header for the cross-platform view controller.
 */
 
 #if defined(TARGET_IOS) || defined(TARGET_TVOS)
@@ -17,7 +17,7 @@ Header for our our cross-platform view controller
 
 #import "AAPLRenderer.h"
 
-// Our view controller
+// The view controller.
 @interface AAPLViewController : PlatformViewController
 
 @end

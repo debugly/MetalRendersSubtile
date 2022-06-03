@@ -2,7 +2,7 @@
 See LICENSE folder for this sample’s licensing information.
 
 Abstract:
-Header for our iOS & tvOS application delegate
+The header for the iOS app delegate.
 */
 
 #import <UIKit/UIKit.h>
