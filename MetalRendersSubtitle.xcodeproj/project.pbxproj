@@ -35,6 +35,10 @@
 		40671F16283C8FB7002AA591 /* AAPLRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBA30A1ED2973600AC86A3 /* AAPLRenderer.mm */; };
 		40671F19283C8FB7002AA591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0279581FA7B383009BB561 /* Main.storyboard */; };
 		40671F1A283C8FB7002AA591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF02A441ED3B7F900498793 /* Assets.xcassets */; };
+		DD4190682936066100ADEFA7 /* IJKSDLTextureString.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4190672936066100ADEFA7 /* IJKSDLTextureString.m */; };
+		DD4190692936066100ADEFA7 /* IJKSDLTextureString.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4190672936066100ADEFA7 /* IJKSDLTextureString.m */; };
+		DD41906A2936066100ADEFA7 /* IJKSDLTextureString.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4190672936066100ADEFA7 /* IJKSDLTextureString.m */; };
+		DD41906B2936066100ADEFA7 /* IJKSDLTextureString.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4190672936066100ADEFA7 /* IJKSDLTextureString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,17 +55,19 @@
 		3ADBA3091ED2973600AC86A3 /* AAPLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLRenderer.h; sourceTree = "<group>"; };
 		3ADBA30A1ED2973600AC86A3 /* AAPLRenderer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AAPLRenderer.mm; sourceTree = "<group>"; };
 		3ADBA30C1ED2973600AC86A3 /* AAPLShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AAPLShaders.metal; sourceTree = "<group>"; };
-		3ADBA3131ED2973600AC86A3 /* BasicArgumentBuffers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicArgumentBuffers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ADBA3411ED2973600AC86A3 /* BasicArgumentBuffers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicArgumentBuffers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADBA3131ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalRendersSubtitle-Metal2-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADBA3411ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalRendersSubtitle-Metal2-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADD8CD41ED3D6E7009BC121 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3AF02A441ED3B7F900498793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401193E3283CA40900A2668B /* AAPLShaderTypes-Metal2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAPLShaderTypes-Metal2.h"; sourceTree = "<group>"; };
 		401193E4283CA52000A2668B /* AAPLShaderTypes-Metal3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAPLShaderTypes-Metal3.h"; sourceTree = "<group>"; };
 		401D1D1A2847360C0034D343 /* AAPLShaderTypes-Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAPLShaderTypes-Common.h"; sourceTree = "<group>"; };
-		40671F0F283C8F62002AA591 /* BasicArgumentBuffers-Metal3-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BasicArgumentBuffers-Metal3-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40671F1F283C8FB7002AA591 /* BasicArgumentBuffers-Metal3-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BasicArgumentBuffers-Metal3-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D155A49B3F2B8AFB3E9393F /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		BADE7B3BA79CA8462DA1322C /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		40671F0F283C8F62002AA591 /* MetalRendersSubtitle-Metal3-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalRendersSubtitle-Metal3-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40671F1F283C8FB7002AA591 /* MetalRendersSubtitle-Metal3-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MetalRendersSubtitle-Metal3-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D155A49B3F2B8AFB3E9393F /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BADE7B3BA79CA8462DA1322C /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		DD4190662936066100ADEFA7 /* IJKSDLTextureString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKSDLTextureString.h; sourceTree = "<group>"; };
+		DD4190672936066100ADEFA7 /* IJKSDLTextureString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKSDLTextureString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,8 @@
 			children = (
 				3ADBA3091ED2973600AC86A3 /* AAPLRenderer.h */,
 				3ADBA30A1ED2973600AC86A3 /* AAPLRenderer.mm */,
+				DD4190662936066100ADEFA7 /* IJKSDLTextureString.h */,
+				DD4190672936066100ADEFA7 /* IJKSDLTextureString.m */,
 				401D1D1A2847360C0034D343 /* AAPLShaderTypes-Common.h */,
 				401193E3283CA40900A2668B /* AAPLShaderTypes-Metal2.h */,
 				401193E4283CA52000A2668B /* AAPLShaderTypes-Metal3.h */,
@@ -158,10 +166,10 @@
 		3ADBA3141ED2973600AC86A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3ADBA3131ED2973600AC86A3 /* BasicArgumentBuffers.app */,
-				3ADBA3411ED2973600AC86A3 /* BasicArgumentBuffers.app */,
-				40671F0F283C8F62002AA591 /* BasicArgumentBuffers-Metal3-iOS.app */,
-				40671F1F283C8FB7002AA591 /* BasicArgumentBuffers-Metal3-macOS.app */,
+				3ADBA3131ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-iOS.app */,
+				3ADBA3411ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-macOS.app */,
+				40671F0F283C8F62002AA591 /* MetalRendersSubtitle-Metal3-iOS.app */,
+				40671F1F283C8FB7002AA591 /* MetalRendersSubtitle-Metal3-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,16 +187,15 @@
 			children = (
 				6D155A49B3F2B8AFB3E9393F /* LICENSE.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3ADBA3121ED2973600AC86A3 /* BasicArgumentBuffers-Metal2-iOS */ = {
+		3ADBA3121ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ADBA3631ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal2-iOS" */;
+			buildConfigurationList = 3ADBA3631ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal2-iOS" */;
 			buildPhases = (
 				3ADBA30F1ED2973600AC86A3 /* Sources */,
 				3ADBA3101ED2973600AC86A3 /* Frameworks */,
@@ -198,14 +205,14 @@
 			);
 			dependencies = (
 			);
-			name = "BasicArgumentBuffers-Metal2-iOS";
+			name = "MetalRendersSubtitle-Metal2-iOS";
 			productName = iOS;
-			productReference = 3ADBA3131ED2973600AC86A3 /* BasicArgumentBuffers.app */;
+			productReference = 3ADBA3131ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3ADBA3401ED2973600AC86A3 /* BasicArgumentBuffers-Metal2-macOS */ = {
+		3ADBA3401ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3ADBA3691ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal2-macOS" */;
+			buildConfigurationList = 3ADBA3691ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal2-macOS" */;
 			buildPhases = (
 				3ADBA33D1ED2973600AC86A3 /* Sources */,
 				3ADBA33E1ED2973600AC86A3 /* Frameworks */,
@@ -215,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = "BasicArgumentBuffers-Metal2-macOS";
+			name = "MetalRendersSubtitle-Metal2-macOS";
 			productName = macOS;
-			productReference = 3ADBA3411ED2973600AC86A3 /* BasicArgumentBuffers.app */;
+			productReference = 3ADBA3411ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		40671EFF283C8F62002AA591 /* BasicArgumentBuffers-Metal3-iOS */ = {
+		40671EFF283C8F62002AA591 /* MetalRendersSubtitle-Metal3-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40671F0C283C8F62002AA591 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal3-iOS" */;
+			buildConfigurationList = 40671F0C283C8F62002AA591 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal3-iOS" */;
 			buildPhases = (
 				40671F00283C8F62002AA591 /* Sources */,
 				40671F06283C8F62002AA591 /* Frameworks */,
@@ -232,14 +239,14 @@
 			);
 			dependencies = (
 			);
-			name = "BasicArgumentBuffers-Metal3-iOS";
+			name = "MetalRendersSubtitle-Metal3-iOS";
 			productName = iOS;
-			productReference = 40671F0F283C8F62002AA591 /* BasicArgumentBuffers-Metal3-iOS.app */;
+			productReference = 40671F0F283C8F62002AA591 /* MetalRendersSubtitle-Metal3-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		40671F11283C8FB7002AA591 /* BasicArgumentBuffers-Metal3-macOS */ = {
+		40671F11283C8FB7002AA591 /* MetalRendersSubtitle-Metal3-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40671F1C283C8FB7002AA591 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal3-macOS" */;
+			buildConfigurationList = 40671F1C283C8FB7002AA591 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal3-macOS" */;
 			buildPhases = (
 				40671F12283C8FB7002AA591 /* Sources */,
 				40671F17283C8FB7002AA591 /* Frameworks */,
@@ -249,9 +256,9 @@
 			);
 			dependencies = (
 			);
-			name = "BasicArgumentBuffers-Metal3-macOS";
+			name = "MetalRendersSubtitle-Metal3-macOS";
 			productName = macOS;
-			productReference = 40671F1F283C8FB7002AA591 /* BasicArgumentBuffers-Metal3-macOS.app */;
+			productReference = 40671F1F283C8FB7002AA591 /* MetalRendersSubtitle-Metal3-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +278,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3ADBA3061ED2973600AC86A3 /* Build configuration list for PBXProject "BasicArgumentBuffers" */;
+			buildConfigurationList = 3ADBA3061ED2973600AC86A3 /* Build configuration list for PBXProject "MetalRendersSubtitle" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,10 +291,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3ADBA3121ED2973600AC86A3 /* BasicArgumentBuffers-Metal2-iOS */,
-				40671EFF283C8F62002AA591 /* BasicArgumentBuffers-Metal3-iOS */,
-				3ADBA3401ED2973600AC86A3 /* BasicArgumentBuffers-Metal2-macOS */,
-				40671F11283C8FB7002AA591 /* BasicArgumentBuffers-Metal3-macOS */,
+				3ADBA3121ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-iOS */,
+				40671EFF283C8F62002AA591 /* MetalRendersSubtitle-Metal3-iOS */,
+				3ADBA3401ED2973600AC86A3 /* MetalRendersSubtitle-Metal2-macOS */,
+				40671F11283C8FB7002AA591 /* MetalRendersSubtitle-Metal3-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0279671FA7B383009BB561 /* main.m in Sources */,
+				DD4190682936066100ADEFA7 /* IJKSDLTextureString.m in Sources */,
 				3A0279611FA7B383009BB561 /* AAPLViewController.m in Sources */,
 				3ADBA3521ED2973600AC86A3 /* AAPLRenderer.mm in Sources */,
 				3A0279601FA7B383009BB561 /* AAPLAppDelegate.m in Sources */,
@@ -354,6 +362,7 @@
 				3A02796C1FA7B3CB009BB561 /* AAPLViewController.m in Sources */,
 				3A0279701FA7B51B009BB561 /* main.m in Sources */,
 				3ADBA3541ED2973600AC86A3 /* AAPLRenderer.mm in Sources */,
+				DD41906A2936066100ADEFA7 /* IJKSDLTextureString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40671F01283C8F62002AA591 /* main.m in Sources */,
+				DD4190692936066100ADEFA7 /* IJKSDLTextureString.m in Sources */,
 				40671F02283C8F62002AA591 /* AAPLViewController.m in Sources */,
 				40671F03283C8F62002AA591 /* AAPLRenderer.mm in Sources */,
 				40671F04283C8F62002AA591 /* AAPLAppDelegate.m in Sources */,
@@ -377,6 +387,7 @@
 				40671F14283C8FB7002AA591 /* AAPLViewController.m in Sources */,
 				40671F15283C8FB7002AA591 /* main.m in Sources */,
 				40671F16283C8FB7002AA591 /* AAPLRenderer.mm in Sources */,
+				DD41906B2936066100ADEFA7 /* IJKSDLTextureString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96C96H28CU;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TARGET_IOS,
 					"$(inherited)",
@@ -535,8 +546,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal2${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = BasicArgumentBuffers;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -549,14 +560,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96C96H28CU;
 				GCC_PREPROCESSOR_DEFINITIONS = TARGET_IOS;
 				INFOPLIST_FILE = Application/iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal2${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = BasicArgumentBuffers;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -569,7 +580,7 @@
 			baseConfigurationReference = BADE7B3BA79CA8462DA1322C /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
@@ -583,8 +594,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal2${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = BasicArgumentBuffers;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal2${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 			};
@@ -595,7 +606,7 @@
 			baseConfigurationReference = BADE7B3BA79CA8462DA1322C /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
@@ -605,8 +616,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal2${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = BasicArgumentBuffers;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal2${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 			};
@@ -618,7 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96C96H28CU;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TARGET_IOS,
 					"$(inherited)",
@@ -630,7 +641,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				MTL_PREPROCESSOR_DEFINITIONS = USE_METAL3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -644,7 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 96C96H28CU;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TARGET_IOS,
 					"USE_METAL3=1",
@@ -654,7 +665,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				MTL_PREPROCESSOR_DEFINITIONS = USE_METAL3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -668,7 +679,7 @@
 			baseConfigurationReference = BADE7B3BA79CA8462DA1322C /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
@@ -684,7 +695,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				MTL_PREPROCESSOR_DEFINITIONS = USE_METAL3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -696,7 +707,7 @@
 			baseConfigurationReference = BADE7B3BA79CA8462DA1322C /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
@@ -710,7 +721,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_FAST_MATH = YES;
 				MTL_PREPROCESSOR_DEFINITIONS = USE_METAL3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.BasicArgumentBuffers-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.debugly.MetalRendersSubtitle-Metal3${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -720,7 +731,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3ADBA3061ED2973600AC86A3 /* Build configuration list for PBXProject "BasicArgumentBuffers" */ = {
+		3ADBA3061ED2973600AC86A3 /* Build configuration list for PBXProject "MetalRendersSubtitle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ADBA3611ED2973600AC86A3 /* Debug */,
@@ -729,7 +740,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ADBA3631ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal2-iOS" */ = {
+		3ADBA3631ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal2-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ADBA3641ED2973600AC86A3 /* Debug */,
@@ -738,7 +749,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3ADBA3691ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal2-macOS" */ = {
+		3ADBA3691ED2973600AC86A3 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal2-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3ADBA36A1ED2973600AC86A3 /* Debug */,
@@ -747,7 +758,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40671F0C283C8F62002AA591 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal3-iOS" */ = {
+		40671F0C283C8F62002AA591 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal3-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40671F0D283C8F62002AA591 /* Debug */,
@@ -756,7 +767,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40671F1C283C8FB7002AA591 /* Build configuration list for PBXNativeTarget "BasicArgumentBuffers-Metal3-macOS" */ = {
+		40671F1C283C8FB7002AA591 /* Build configuration list for PBXNativeTarget "MetalRendersSubtitle-Metal3-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40671F1D283C8FB7002AA591 /* Debug */,

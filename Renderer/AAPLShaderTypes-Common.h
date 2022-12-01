@@ -23,6 +23,14 @@ typedef enum AAPLFragmentBufferIndex
     AAPLFragmentBufferIndexArguments = 0,
 } AAPLFragmentBufferIndex;
 
+struct SubtitleFragmentArguments
+{
+    float x;
+    float y;
+    float w;
+    float h;
+};
+
 //  Defines the layout of each vertex in the array of vertices that functions
 //     as an input to the Metal vertex shader.
 typedef struct AAPLVertex {

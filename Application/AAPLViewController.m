@@ -30,9 +30,10 @@ The implementation of the cross-platform view controller.
     
     NSAssert(_renderer, @"Renderer failed initialization");
 
+    _view.preferredFramesPerSecond = 1;
     [_renderer mtkView:_view drawableSizeWillChange:_view.drawableSize];
-
     _view.delegate = _renderer;
+    [_view draw];
 }
 
 @end

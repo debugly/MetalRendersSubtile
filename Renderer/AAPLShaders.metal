@@ -24,6 +24,7 @@ struct FragmentShaderArguments {
     sampler         exampleSampler  [[ id(AAPLArgumentBufferIDExampleSampler)  ]];
     device float   *exampleBuffer   [[ id(AAPLArgumentBufferIDExampleBuffer)   ]];
     uint32_t        exampleConstant [[ id(AAPLArgumentBufferIDExampleConstant) ]];
+    SubtitleFragmentArguments subRect [[ id(AAPLArgumentBufferIDExampleSubtitleRect) ]];
 };
 #endif
 
@@ -57,18 +58,30 @@ fragment float4
 fragmentShader(       RasterizerData            in                 [[ stage_in ]],
                device FragmentShaderArguments & fragmentShaderArgs [[ buffer(AAPLFragmentBufferIndexArguments) ]])
 {
-    // Get the encoded sampler from the argument buffer.
-    sampler exampleSampler = fragmentShaderArgs.exampleSampler;
-
-    // Sample the encoded texture in the argument buffer.
-    half4 textureSample = fragmentShaderArgs.exampleTexture.sample(exampleSampler, in.texCoord);
-
     // Use the fragment position and the encoded constant in the argument buffer to calculate an array index.
     uint32_t index = (uint32_t)in.position.x % fragmentShaderArgs.exampleConstant;
 
     // Index into the encoded buffer in the argument buffer.
     float colorScale = fragmentShaderArgs.exampleBuffer[index];
-
-    // Add the sample and color values together and return the result.
-    return float4((1.0-textureSample.w) * colorScale * in.color + textureSample);
+    
+    sampler exampleSampler = fragmentShaderArgs.exampleSampler;
+    
+    float2 texCoord = in.texCoord;
+    SubtitleFragmentArguments subRect = fragmentShaderArgs.subRect;
+    float sx = subRect.x;
+    float sy = subRect.y;
+    
+    if (texCoord.x > sx && texCoord.x < (sx + subRect.w) && texCoord.y > sy && texCoord.y < (sy + subRect.h)) {
+        texCoord.x = (texCoord.x - sx) / subRect.w;
+        texCoord.y = (texCoord.y - sy) / subRect.h;
+        //垂直翻转
+        texCoord.y = 1 - texCoord.y;
+        // Sample the encoded texture in the argument buffer.
+        half4 textureSample = fragmentShaderArgs.exampleTexture.sample(exampleSampler, texCoord);
+        // Add the subtitle and color values together and return the result.
+        return float4((1.0 - textureSample.a) * colorScale * in.color + textureSample);
+    }  else {
+        // Add the sample and color values together and return the result.
+        return float4(colorScale * in.color);
+    }
 }

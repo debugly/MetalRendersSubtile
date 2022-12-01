@@ -8,7 +8,7 @@ The header that contains types for Metal 2 argument buffers that the Metal shade
 #define ShaderTypes_Metal3_h
 
 #include <simd/simd.h>
-
+#include "AAPLShaderTypes-Common.h"
 #ifndef __METAL_VERSION__
 
 template<typename T>
@@ -38,6 +38,7 @@ struct FragmentShaderArguments {
     sampler          exampleSampler;
     DEVICE float    *exampleBuffer;
     uint32_t         exampleConstant;
+    SubtitleFragmentArguments subRect;
 };
 
 #endif /* ShaderTypes_Metal3_h */

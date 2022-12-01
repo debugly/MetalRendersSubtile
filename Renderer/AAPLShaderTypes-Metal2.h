@@ -16,7 +16,8 @@ typedef enum AAPLArgumentBufferID
     AAPLArgumentBufferIDExampleTexture,
     AAPLArgumentBufferIDExampleSampler,
     AAPLArgumentBufferIDExampleBuffer,
-    AAPLArgumentBufferIDExampleConstant
+    AAPLArgumentBufferIDExampleConstant,
+    AAPLArgumentBufferIDExampleSubtitleRect,
 } AAPLArgumentBufferID;
 
 #endif /* ShaderTypes_Metal2_h */
